@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import { ControlledModal } from "./ControlledModal";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App() {const [shouldShowModal, setShouldShowModal] = useState(false);
+
+	return (
+		<>
+		<ControlledModal
+			shouldShow={shouldShowModal}
+			onRequestClose={() => setShouldShowModal(false)}
+		>
+			<h1>Hello!</h1>
+		</ControlledModal>
+		<button onClick={() => setShouldShowModal(!shouldShowModal)}>
+			{shouldShowModal ? 'Hide Modal' : 'Show Modal'}
+		</button>
+		</>
+	);
 }
 
 export default App;
