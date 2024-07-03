@@ -1,9 +1,9 @@
 import './App.css';
-import {UncontolledForm} from './UncontolledForm'
+import { ControlledForm } from './ControlledForm';
 
 function App() {
   return (
-   <UncontolledForm/>
+   <ControlledForm/>
   );
 }
 
