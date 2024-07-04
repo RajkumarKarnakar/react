@@ -17,6 +17,7 @@ let users = [
         name: 'Rajkumar Karnakar',
         age: 23,
         weight: 65,
+        hairColor:'black',
         hobbies: ['running', 'reading', 'cycling'],
     },
     {

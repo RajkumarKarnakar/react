@@ -10,7 +10,7 @@ export const withUser = ((Component, userId) =>{
                     const response = await axios.get(`/users/${userId}`);
                     setUser(response.data);
                 })();
-            });
+            },[]);
             return <Component {...props} user={user}/>
         }
 })
