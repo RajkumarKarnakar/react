@@ -1,9 +1,10 @@
-import { UserInfoForm } from "./UserInfoForm";
+import { UserInfo } from "./UserInfo";
 
 function App() {
 	return (
   <>
-    <UserInfoForm/>
+    <UserInfo userId={102}/>
+    <UserInfo userId={101}/>
   </>
   );
 }
