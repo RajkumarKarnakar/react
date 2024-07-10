@@ -4,8 +4,11 @@
 
 - [X]  react design patterns
 
-| S/N | *Design Pattern* | Status |
-|--|--|--|
-| 1 | Layout Component | - [] |
-| 2 | Container Component | - [] |
-| 3 | Controlled & Uncontrolled Components | - [] |
+| *Status* | *Design Pattern* | 
+
+- [X] Layout Component
+- [X] Container Component 
+- [X] Controlled & Uncontrolled Components 
+- [X] Higher Order Components
+- [X] Customs Hooks
+- [X] Functional Programming
