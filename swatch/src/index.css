@@ -1,4 +1,6 @@
-html, body {
+/* Add this CSS to your stylesheet or component */
+html,
+body {
   font-family: sans-serif;
 }
 
@@ -38,7 +40,8 @@ body {
   margin: 0px;
 }
 
-input, label {
+input,
+label {
   display: block;
   margin: 8px auto;
 }
@@ -48,7 +51,7 @@ input {
   width: 300px;
 }
 
-input[type=submit] {
+input[type='submit'] {
   width: 100px;
 }
 
@@ -62,6 +65,39 @@ input[type=submit] {
 
 .dog-pics img {
   width: 500px;
-  height:400px;
+  height: 400px;
   object-fit: contain;
+}
+/* Add this CSS to your stylesheet or component */
+h1 {
+  text-align: center;
+}
+
+.items {
+  padding-left: 15px;
+}
+
+.cart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid #ccc; /* Add a border around the cart */
+  border-radius: 10px; /* Rounded corners for the cart */
+  padding: 10px; /* Add some padding to the cart */
+}
+
+.total {
+  margin: 0 auto;
+  text-align: center;
+  color: #007bff; /* Blue color for total */
+  border-top: 1px solid #ccc; /* Add a top border for the total section */
+  padding-top: 10px; /* Add some spacing at the top of the total section */
+}
+
+button {
+  margin: 0 5px;
+  background-color: deeppink; /* Pink color for buttons */
+  border: none; /* Remove the button border */
+  padding: 5px 10px; /* Add padding to the buttons */
+  border-radius: 5px; /* Rounded corners for the buttons */
 }
